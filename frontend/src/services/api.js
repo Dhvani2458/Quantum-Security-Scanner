@@ -4,7 +4,7 @@
  * with client-side fallback engine if backend is offline.
  */
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://quantum-security-scanner-api.onrender.com';
 
 export async function scanCodeSnippet(code, filename = "snippet.py") {
   try {
